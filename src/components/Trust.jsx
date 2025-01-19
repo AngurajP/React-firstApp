@@ -62,7 +62,7 @@ const Trust = () => {
                             </Box>
                             <Typography variant="h6" sx={{ color: '#000', fontSize: 20, fontWeight: 'bold', marginTop: '1em' }}>Service Guarantee</Typography>
                             <Typography variant='body2' sx={{ color: 'text.secondary', marginTop: '0.5em' }}>
-                                We instruct our team members to switch out all cleaning materials and mop heads after each use.
+                                We instruct our team members to switch out all cleaning materials, mop heads after each use.
                             </Typography>
                         </Box>
                     </Grid>
@@ -71,7 +71,7 @@ const Trust = () => {
 
             {/* Section 3 */}
             <Box sx={{ marginTop: '3em', display: 'flex', flexWrap: 'wrap' }}>
-                {/* Image */}
+                {/*girl Image */}
                 <Grid item xs={12} sm={12} md={12}>
                     <Box sx={{
                         flex: 1,
@@ -100,8 +100,8 @@ const Trust = () => {
                     {/* Cards */}
                     <Grid container spacing={2} marginTop="2em">
                         {/* Card 1 */}
-                        <Grid item xs={12} sm={12} md={12}>
-                            <Card variant='outlined'>
+                        <Grid item xs={12} sm={12} md={6}>
+                            <Card variant='outlined' sx={{border:'1px solid black'}}>
                                 <CardMedia sx={{ textAlign: 'center', marginTop: '0.5em' }}>
                                     <WashIcon fontSize='large' />
                                 </CardMedia>
@@ -114,8 +114,8 @@ const Trust = () => {
                             </Card>
                         </Grid>
                         {/* Card 2 */}
-                        <Grid item xs={12} sm={12} md={12}>
-                            <Card variant='outlined'>
+                        <Grid item xs={12} sm={12} md={6}>
+                            <Card variant='outlined' sx={{border:'1px solid black'}}>
                                 <CardMedia sx={{ textAlign: 'center', marginTop: '0.5em' }}>
                                     <FormatPaintIcon fontSize='large' />
                                 </CardMedia>
